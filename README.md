@@ -1,4 +1,3 @@
-# github-bot
 # 👋 Hi, I'm Biniyam Aweke
 
 Software Engineer and Data Science Analyst focused on building production-grade software and turning data into clear, measurable business decisions.
