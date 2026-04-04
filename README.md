@@ -45,12 +45,13 @@ I enjoy working at the intersection of **engineering reliability** and **analyti
 
 ## 📌 Projects
 
-### 1) Intelligent Demand Forecasting Platform
-Built a forecasting pipeline for retail operations to reduce stockouts and over-ordering across multiple product categories.
+### 1) Solar Energy Analytics & Investment Comparison
+Analyzed solar irradiance datasets across multiple countries to identify the most suitable location for solar investment.
 
-- **Problem solved:** Manual forecasting was inconsistent and reactive.
-- **Solution:** Automated time-series pipeline with model monitoring and retraining.
-- **Tech stack:** Python, Pandas, Scikit-Learn, FastAPI, PostgreSQL, Docker
+- **Problem solved:** No clear, data-backed way to compare solar potential across countries.
+- **Solution:** Performed end-to-end EDA, cleaned sensor data, handled outliers, and compared key metrics like GHI, DNI, and temperature.
+- **Key Insights:** Identified the most stable and high-potential country based on irradiance consistency and variability.
+- **Tech stack:** Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook, Streamlit
 - **Link:** [GitHub Repository](https://github.com/your-username/demand-forecasting)
 
 ### 2) Real-Time Analytics Dashboard for Product Teams
