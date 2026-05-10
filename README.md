@@ -34,6 +34,8 @@ I enjoy working at the intersection of **engineering reliability** and **analyti
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+![Hex](https://img.shields.io/badge/Hex-6C63FF?style=flat&logo=hex&logoColor=white)
+![Looker%20Studio](https://img.shields.io/badge/Looker%20Studio-4285F4?style=flat&logo=googleanalytics&logoColor=white)
 
 ### Tools & Platforms
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
