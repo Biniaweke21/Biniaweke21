@@ -1,16 +1,17 @@
-# 👋 Hi, I'm Biniyam Aweke
+# Hi, I'm Biniyam Aweke
 
-Software Engineer and Data Science Analyst focused on building production-grade software and turning data into clear, measurable business decisions.
+Software Engineer and Data Analyst focused on building production-grade applications and turning raw data into clear, actionable insights. Co-founder of Vibey World, an innovation studio building AI-powered digital products.
 
-I enjoy working at the intersection of **engineering reliability** and **analytical insight**—shipping systems that scale, and models that actually get used.
+I work at the intersection of engineering and analysis: shipping full-stack systems that scale, and data pipelines that actually inform decisions.
 
 ---
 
-## 🚀 Skills & Tech Stack
+## Skills and Tech Stack
 
 ### Programming Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
 ### Frontend
@@ -21,103 +22,95 @@ I enjoy working at the intersection of **engineering reliability** and **analyti
 ### Backend
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 
-### Databases
+### Databases and Backend Platforms
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white)
 
-
-### Data Science & ML Tools
+### Data Science and ML
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
 ![Hex](https://img.shields.io/badge/Hex-6C63FF?style=flat&logo=hex&logoColor=white)
 ![Looker%20Studio](https://img.shields.io/badge/Looker%20Studio-4285F4?style=flat&logo=googleanalytics&logoColor=white)
 
-### Tools & Platforms
+### AI and APIs
+![Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=flat&logo=google&logoColor=white)
+![Llama](https://img.shields.io/badge/Llama%203.3-0467DF?style=flat&logo=meta&logoColor=white)
+
+### Tools and Platforms
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
 
 ---
 
-## 📌 Projects
+## Projects
 
-### 1) Solar Energy Analytics & Investment Comparison
-Analyzed solar irradiance datasets across multiple countries to identify the most suitable location for solar investment.
+### Edaye (እዳዬ) - Digital Loan Tracking for Ethiopian Small Shops
+A full-stack web application that replaces the paper debt notebooks ("dube") traditionally used by small shop owners in Ethiopia.
 
-- **Problem solved:** No clear, data-backed way to compare solar potential across countries.
-- **Solution:** Performed end-to-end EDA, cleaned sensor data, handled outliers, and compared key metrics like GHI, DNI, and temperature.
-- **Key Insights:** Identified the most stable and high-potential country based on irradiance consistency and variability.
-- **Tech stack:** Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook, Streamlit
-- **Link:** [GitHub Repository](https://github.com/your-username/demand-forecasting)
+- Problem solved: Paper loan records get lost or damaged, disputes arise with no confirmation system, and illiterate shop owners cannot use text-based tools.
+- Solution: Voice recording in Amharic and English, dual email confirmation between shop owner and buyer, partial payment tracking, and role-based dashboards.
+- Tech stack: Next.js, TypeScript, Supabase, PostgreSQL, Tailwind CSS, Resend API
+- Live: https://v0-loan-tracking-app-omega.vercel.app/
+- GitHub: https://github.com/Biniaweke21/loan-tracking-app
 
-### 2) Real-Time Analytics Dashboard for Product Teams
-Designed a near-real-time dashboard to track feature adoption, conversion funnels, and retention signals.
+### Holland Dairy - Scrollytelling Homepage Redesign
+A complete redesign of the homepage for Holland Dairy, an Ethiopian dairy brand, built around an Apple-style canvas frame sequence animation.
 
-- **Problem solved:** Product decisions lacked timely, trustworthy metrics.
-- **Solution:** End-to-end event ingestion and KPI dashboard with role-based views.
-- **Tech stack:** React, TypeScript, Node.js, Redis, PostgreSQL
-- **Link:** [Live Demo](https://your-demo-link.com)
+- Problem solved: An outdated WordPress site that did not reflect the brand's premium positioning.
+- Solution: A 152-frame canvas animation scrubbed by scroll position, with synchronized text blocks, a dynamic navbar, and a flavour-based scroll progress indicator.
+- Tech stack: Next.js, TypeScript, Tailwind CSS, HTML Canvas API, GSAP, Framer Motion
+- Live: https://v0-holland-dairy-website.vercel.app/
+- GitHub: https://github.com/Biniaweke21/holland-dairy-website
 
-### 3) Resume Screening Assistant (NLP)
-Developed an NLP-powered assistant to score CV-job fit and prioritize top candidates for recruiter review.
+### Simuni Wallet (ስሙኒ ዋሌት) - AI-Powered Money Management
+A full-stack personal finance application built for Ethiopian users, with multilingual support and AI-driven spending insights.
 
-- **Problem solved:** High manual effort in early-stage candidate filtering.
-- **Solution:** Text preprocessing, embeddings, ranking model, and explainable scoring.
-- **Tech stack:** Python, NLP, Scikit-Learn, FastAPI, Docker
-- **Link:** [GitHub Repository](https://github.com/your-username/resume-screening-assistant)
+- Problem solved: Existing finance apps do not account for local currency, language, or spending habits.
+- Solution: Llama 3.3 powered spending insights, real-time notifications via SSE, JWT and OTP authentication, English and Amharic support, and budget analytics.
+- Tech stack: Next.js, Node.js, MongoDB, Llama 3.3, TypeScript
 
-### 4) Scalable E-Commerce API
-Engineered a modular backend API with secure auth, payment-ready architecture, and performance-focused caching.
+### West African Solar Investment Analysis
+An end-to-end data analysis project comparing solar potential across Benin, Togo, and Sierra Leone using 1.6 million rows of minute-level sensor data.
 
-- **Problem solved:** Monolithic backend limited growth and reliability.
-- **Solution:** RESTful service layer with clean architecture, caching, and CI workflows.
-- **Tech stack:** Node.js, Express, MongoDB, Redis, GitHub Actions
-- **Link:** [GitHub Repository](https://github.com/your-username/scalable-ecommerce-api)
-
----
-
-## 🛠️ Experience / What I’m Working On
-
-I’m currently focused on:
-
-- Building **scalable backend systems** that are observable, testable, and cost-efficient.
-- Improving **ML model deployment workflows** (from notebooks to production APIs).
-- Strengthening **data engineering foundations** for reliable analytics and experimentation.
-- Contributing to projects with real users, real constraints, and measurable outcomes.
+- Problem solved: Investors lacked a data-backed way to compare solar potential across sites.
+- Solution: Cleaned and processed sensor data, applied outlier detection and statistical hypothesis testing, and delivered findings through an interactive Streamlit dashboard.
+- Tech stack: Python, Pandas, NumPy, Matplotlib, Seaborn, Streamlit
 
 ---
 
-## 🏆 Achievements
+## Experience
 
-- ✅ Built and deployed end-to-end data products used for business decision-making.
-- ✅ Delivered full-stack applications with production CI/CD workflows.
-- 🎓 **B.Sc. in Computer Science** (or relevant field) — *Add your university + GPA if desired*
-- 📜 Certifications: *Add relevant certs (AWS, Google Data Analytics, IBM Data Science, etc.)*
+**Data Scientist, ConDigital** (March 2026 - April 2026)
+Trained and fine-tuned AI agents on data science workflows, including exploratory data analysis, model evaluation, and visualization using Jupyter, Hex, and Looker Studio.
 
----
-
-## 🤝 Contact / Connect
-
-- LinkedIn: [linkedin.com/in/your-profile](-)
-- Portfolio: [your-portfolio.com](-)
-- Email: [your.email@example.com](mailto:biniaweke2194@gmail.com)
-- GitHub: [github.com/your-username](https://github.com/Biniaweke21)
+**Freelance Software Engineer and Data Analyst** (2025 - Present)
+Designing and shipping AI-powered applications and data-driven tools across Ethiopia, including loan tracking platforms, AI resume analysis tools, and brand websites with advanced scroll-based animations.
 
 ---
 
-## 📈 GitHub Stats (Optional)
+## Education
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=default)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact)
+B.Sc. Software Engineering, Haramaya University, 2025
+CGPA: 3.4 / 4.00
 
 ---
 
-## ☕ Beyond Tech
+## Connect
 
-Outside of engineering, I enjoy turning complex ideas into simple explanations, mentoring peers, and exploring how technology can create practical impact across industries.
+- Portfolio: [add your portfolio link]
+- LinkedIn: [linkedin.com/in/biniyam](https://linkedin.com/in/biniyam)
+- Email: biniaweke2194@gmail.com
+- GitHub: [github.com/Biniaweke21](https://github.com/Biniaweke21)
+
+---
+
+## GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Biniaweke21&show_icons=true&theme=default)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Biniaweke21&layout=compact)
