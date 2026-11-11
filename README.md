@@ -59,16 +59,16 @@ I'm a software engineer and co-founder of **Vibey World**, a small studio in Eth
 
 ## What I work with
 
-| | |
-|---|---|
-| **Web** | TypeScript, React, Next.js, Tailwind, Astro, Vite |
-| **Mobile** | Flutter (GetX), React Native with Expo |
-| **Backend** | Node.js, Express, Socket.IO, Bull, REST, webhooks |
-| **Data** | PostgreSQL, Prisma, Supabase, MongoDB |
-| **Cloud** | Vercel, AWS (S3, Rekognition), Firebase, Render, Backblaze B2, Docker, GitHub Actions, Codemagic |
-| **AI** | Claude API (tool use), OpenAI SDK, Groq / Llama, Gemini |
-| **Payments & email** | Stripe, RevenueCat, Square, Resend, Brevo |
-| **Python** | pandas, scikit-learn, XGBoost, NLTK, Streamlit, Flask |
+<table>
+<tr><td><b>Web</b></td><td>TypeScript, React, Next.js, Tailwind, Astro, Vite</td></tr>
+<tr><td><b>Mobile</b></td><td>Flutter (GetX), React Native with Expo</td></tr>
+<tr><td><b>Backend</b></td><td>Node.js, Express, Socket.IO, Bull, REST, webhooks</td></tr>
+<tr><td><b>Data</b></td><td>PostgreSQL, Prisma, Supabase, MongoDB</td></tr>
+<tr><td><b>Cloud</b></td><td>Vercel, AWS (S3, Rekognition), Firebase, Render, Backblaze B2, Docker, GitHub Actions, Codemagic</td></tr>
+<tr><td><b>AI</b></td><td>Claude API (tool use), OpenAI SDK, Groq / Llama, Gemini</td></tr>
+<tr><td><b>Payments & email</b></td><td>Stripe, RevenueCat, Square, Resend, Brevo</td></tr>
+<tr><td><b>Python</b></td><td>pandas, scikit-learn, XGBoost, NLTK, Streamlit, Flask</td></tr>
+</table>
 
 ## Background
 
