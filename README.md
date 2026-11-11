@@ -1,116 +1,81 @@
-# Hi, I'm Biniyam Aweke
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img alt="Biniyam Aweke, software engineer: web, mobile, AI" src="assets/banner-light.svg" width="100%">
+</picture>
 
-Software Engineer and Data Analyst focused on building production-grade applications and turning raw data into clear, actionable insights. Co-founder of Vibey World, an innovation studio building AI-powered digital products.
+I'm a software engineer and co-founder of **Vibey World**, a small studio in Ethiopia. Most weeks I'm switching between a Next.js dashboard, a Flutter app and a Node backend, often for the same product. I care about boring infrastructure, honest numbers, and screens that make sense to a shop owner, not just to other developers.
 
-I work at the intersection of engineering and analysis: shipping full-stack systems that scale, and data pipelines that actually inform decisions.
+**Right now**
 
----
+- Building **BusinessPlus AI**, which plugs into a café's or shop's POS and answers "how did we do this week?" in plain English, using Claude
+- Shipping updates to **Lomi**, a dating app on Google Play (Flutter, Node, AWS)
+- Building **Vibey Gift**, branded gift cards for Ethiopian coffee shops, with a staff app for the counter
 
-## Skills and Tech Stack
+## Selected work
 
-### Programming Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://business-plus-one.vercel.app"><img src="assets/businessplus.jpg" alt="BusinessPlus AI landing page" width="100%"></a>
+<h3>BusinessPlus AI</h3>
+<p>Sales dashboards and an AI assistant for small US businesses, fed by Square. The assistant calls read-only tools that return already-formatted money, so the model never does arithmetic and can't reach another business's data.</p>
+<sub>Next.js · Prisma · Postgres · Claude API · Stripe · Square · Sentry · Playwright</sub>
+<br><br>
+</td>
+<td width="50%" valign="top">
+<a href="https://simuni-wallet.vercel.app"><img src="assets/simuni.jpg" alt="Simuni Wallet landing page" width="100%"></a>
+<h3>ስሙኒ Wallet</h3>
+<p>Personal finance in birr, in Amharic or English. Track spending, set goals, and ask an assistant (Llama 3.3 on Groq) why the month went the way it did. Live notifications over SSE.</p>
+<sub>Next.js · Express · MongoDB · Groq · JWT + OTP</sub>
+<br><br>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://v0-loan-tracking-app-omega.vercel.app"><img src="assets/edaye.jpg" alt="Edaye landing page" width="100%"></a>
+<h3>Edaye (እዳዬ)</h3>
+<p>Replaces the paper <i>dube</i> notebook that shop owners use to track customer credit. Loans can be recorded by voice in Amharic, and both sides confirm by email, so arguments end before they start.</p>
+<sub>Next.js · Supabase · Postgres · Resend</sub>
+<br><br>
+</td>
+<td width="50%" valign="top">
+<a href="https://fili-coffee-website.vercel.app"><img src="assets/fili.jpg" alt="Fili Coffee website" width="100%"></a>
+<h3>Fili Coffee</h3>
+<p>A scroll-driven brand site for an Ethiopian coffee roaster: the story moves from fire to cup as you scroll. Same approach as the <a href="https://v0-holland-dairy-website.vercel.app">Holland Dairy</a> redesign (152-frame canvas + a Gemini chat helper).</p>
+<sub>Next.js · Tailwind · GSAP · Canvas</sub>
+<br><br>
+</td>
+</tr>
+</table>
 
-### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+**Also shipped**
 
-### Backend
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
+- **Lomi**: a Flutter dating app with a TypeScript backend of about 30 modules. Real-time chat over Socket.IO, subscriptions through RevenueCat, push via Firebase, media on S3, and every photo checked by AWS Rekognition before it's stored. iOS builds go out through Codemagic.
+- **Vibey Gift**: multi-tenant gift card infrastructure. A Next.js API and dashboards, plus an Expo (React Native) app that staff use to scan and load cards. Tests cover concurrency, idempotency and merchant isolation.
+- **[Addis Hiwot School](https://ahs.vibeyworlds.com)**: a bilingual Astro site with a Supabase admin and PDF uploads to Backblaze B2.
+- **[Awaqi](https://awaqi-membership-portal.vercel.app)** membership portal, **[PowerGym](https://powergym-kappa.vercel.app)** gym management, and **[QR Wedding Gallery](https://wedding-gallery-app-three.vercel.app)** for wedding studios.
 
-### Databases and Backend Platforms
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white)
+**On the data side:** [solar site analysis](https://github.com/Biniaweke21/solar-energy-analytics-1) on 1.6M rows of sensor data from Benin, Togo and Sierra Leone (Streamlit dashboard), [news sentiment vs. stock moves](https://github.com/Biniaweke21/nova-financial-insights-), and an [end-to-end ML pipeline](https://github.com/Biniaweke21/End-to-End-Machine-Learning-Project) served with Flask.
 
-### Data Science and ML
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
-![Hex](https://img.shields.io/badge/Hex-6C63FF?style=flat&logo=hex&logoColor=white)
-![Looker%20Studio](https://img.shields.io/badge/Looker%20Studio-4285F4?style=flat&logo=googleanalytics&logoColor=white)
+## What I work with
 
-### AI and APIs
-![Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=flat&logo=google&logoColor=white)
-![Llama](https://img.shields.io/badge/Llama%203.3-0467DF?style=flat&logo=meta&logoColor=white)
+| | |
+|---|---|
+| **Web** | TypeScript, React, Next.js, Tailwind, Astro, Vite |
+| **Mobile** | Flutter (GetX), React Native with Expo |
+| **Backend** | Node.js, Express, Socket.IO, Bull, REST, webhooks |
+| **Data** | PostgreSQL, Prisma, Supabase, MongoDB |
+| **Cloud** | Vercel, AWS (S3, Rekognition), Firebase, Render, Backblaze B2, Docker, GitHub Actions, Codemagic |
+| **AI** | Claude API (tool use), OpenAI SDK, Groq / Llama, Gemini |
+| **Payments & email** | Stripe, RevenueCat, Square, Resend, Brevo |
+| **Python** | pandas, scikit-learn, XGBoost, NLTK, Streamlit, Flask |
 
-### Tools and Platforms
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
+## Background
 
----
+**Co-founder, Vibey World** · 2025 to now. We design and build products for businesses, mostly in Ethiopia.<br>
+**Data Scientist, ConDigital** · Mar to Apr 2026. Trained and evaluated AI agents on data science work (EDA, modelling, visualization).<br>
+**B.Sc. Software Engineering, Haramaya University** · 2025
 
-## Projects
+Most of my client work lives in private repos, so the live links above are the best way to see it.
 
-### Edaye (እዳዬ) - Digital Loan Tracking for Ethiopian Small Shops
-A full-stack web application that replaces the paper debt notebooks ("dube") traditionally used by small shop owners in Ethiopia.
-
-- Problem solved: Paper loan records get lost or damaged, disputes arise with no confirmation system, and illiterate shop owners cannot use text-based tools.
-- Solution: Voice recording in Amharic and English, dual email confirmation between shop owner and buyer, partial payment tracking, and role-based dashboards.
-- Tech stack: Next.js, TypeScript, Supabase, PostgreSQL, Tailwind CSS, Resend API
-- Live: https://v0-loan-tracking-app-omega.vercel.app/
-- GitHub: https://github.com/Biniaweke21/loan-tracking-app
-
-### Holland Dairy - Scrollytelling Homepage Redesign
-A complete redesign of the homepage for Holland Dairy, an Ethiopian dairy brand, built around an Apple-style canvas frame sequence animation.
-
-- Problem solved: An outdated WordPress site that did not reflect the brand's premium positioning.
-- Solution: A 152-frame canvas animation scrubbed by scroll position, with synchronized text blocks, a dynamic navbar, and a flavour-based scroll progress indicator.
-- Tech stack: Next.js, TypeScript, Tailwind CSS, HTML Canvas API, GSAP, Framer Motion
-- Live: https://v0-holland-dairy-website.vercel.app/
-- GitHub: https://github.com/Biniaweke21/holland-dairy-website
-
-### Simuni Wallet (ስሙኒ ዋሌት) - AI-Powered Money Management
-A full-stack personal finance application built for Ethiopian users, with multilingual support and AI-driven spending insights.
-
-- Problem solved: Existing finance apps do not account for local currency, language, or spending habits.
-- Solution: Llama 3.3 powered spending insights, real-time notifications via SSE, JWT and OTP authentication, English and Amharic support, and budget analytics.
-- Tech stack: Next.js, Node.js, MongoDB, Llama 3.3, TypeScript
-
-### West African Solar Investment Analysis
-An end-to-end data analysis project comparing solar potential across Benin, Togo, and Sierra Leone using 1.6 million rows of minute-level sensor data.
-
-- Problem solved: Investors lacked a data-backed way to compare solar potential across sites.
-- Solution: Cleaned and processed sensor data, applied outlier detection and statistical hypothesis testing, and delivered findings through an interactive Streamlit dashboard.
-- Tech stack: Python, Pandas, NumPy, Matplotlib, Seaborn, Streamlit
-
----
-
-## Experience
-
-**Data Scientist, ConDigital** (March 2026 - April 2026)
-Trained and fine-tuned AI agents on data science workflows, including exploratory data analysis, model evaluation, and visualization using Jupyter, Hex, and Looker Studio.
-
-**Freelance Software Engineer and Data Analyst** (2025 - Present)
-Designing and shipping AI-powered applications and data-driven tools across Ethiopia, including loan tracking platforms, AI resume analysis tools, and brand websites with advanced scroll-based animations.
-
----
-
-## Education
-
-B.Sc. Software Engineering, Haramaya University, 2025
-CGPA: 3.4 / 4.00
-
----
-
-## Connect
-
-- Portfolio: [add your portfolio link]
-- LinkedIn: [linkedin.com/in/biniyam](https://linkedin.com/in/biniyam)
-- Email: biniaweke2194@gmail.com
-- GitHub: [github.com/Biniaweke21](https://github.com/Biniaweke21)
-
----
-
-## GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Biniaweke21&show_icons=true&theme=default)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Biniaweke21&layout=compact)
+**Say hi:** [biniaweke2194@gmail.com](mailto:biniaweke2194@gmail.com) · [LinkedIn](https://linkedin.com/in/biniyam)
