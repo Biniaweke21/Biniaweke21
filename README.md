@@ -176,7 +176,7 @@ Also: [Holland Dairy](https://v0-holland-dairy-website.vercel.app) (152-frame sc
 | **Data Scientist** | ConDigital: trained and evaluated AI agents on data science work | Mar to Apr 2026 |
 | **Freelance Software Engineer** | Web, mobile and AI projects for clients in Ethiopia and the US | 2025 to present |
 
-**Education:** B.Sc. in Software Engineering, Haramaya University (2025), CGPA 3.4
+**Education:** B.Sc. in Software Engineering, Addis Ababa University, CGPA 3.92/4.00
 
 ## Let's work together
 
